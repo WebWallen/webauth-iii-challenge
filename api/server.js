@@ -17,3 +17,5 @@ server.use('/api/auth', authRouter);
 server.get('/', (req, res) => {
     res.send("It's a Living, Breathing Server!")
 })
+
+module.exports = server;
